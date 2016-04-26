@@ -1,0 +1,23 @@
+@charset 'UTF-8';
+/* IE Only */
+header .to_download span {
+  background-color: #3baee7;
+}
+
+/* IE9 */
+:root header input~div li {
+  line-height: 0.5em \0/IE9;
+}
+:root header input~div li img {
+  padding: 0 \0/IE9;
+}
+
+/* IE10 & IE11 */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  header input~div li {
+    line-height: 0.5em;
+  }
+  header input~div li img {
+    padding: 0;
+  }
+}

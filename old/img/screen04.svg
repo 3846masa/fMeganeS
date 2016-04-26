@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="100%" width="100%" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 149.01762 83.82236">
+ <defs></defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-2.2292519e-6,0)">
+  <g transform="translate(-522.57896,-832.53853)" fill="#FFF">
+   <path opacity="0.73893804" d="m528.19,838.37,0,24,6,0,0-18,20,0,0-6-20,0-4,0-2,0z"/>
+   <path opacity="0.73893804" d="m667.19,837.37-24,0,0,6,18,0,0,20,6,0,0-20,0-4,0-2z"/>
+   <path opacity="0.73893804" d="m667.69,910.36,0-24-6,0,0,18-20,0,0,6,20,0,4,0,2,0z"/>
+   <path opacity="0.73893804" d="m528.69,911.36,24,0,0-6-18,0,0-20-6,0,0,20,0,4,0,2z"/>
+  </g>
+ </g>
+</svg>
