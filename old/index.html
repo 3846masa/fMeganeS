@@ -7,15 +7,18 @@
   <link href='onepage-scroll.css' rel='stylesheet' type='text/css'> -->
   <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
   <script type="text/javascript" src="jquery.fullPage.min.js"></script>
-  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
-  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
   <script>
     $(function(){
       //$("#main").onepage_scroll();
       $.fn.fullpage();
       $(".center").each(function(){
         $(this).load(function(){
-          $(this).css({top:($(this).parent().height()-$(this).height())/2.0,left:($(this).parent().width()-$(this).width())/2.0});
+          $(this).css({
+            top: parseInt(($(this).parent().height()-$(this).height())/2.0),
+            left: parseInt(($(this).parent().width()-$(this).width())/2.0)
+          });
         });
       });
       if ($(window).width() > $(window).height()){
@@ -34,7 +37,10 @@
 
     function fixView(){
       $(".center").each(function(){
-        $(this).css({top:($(this).parent().height()-$(this).height())/2.0,left:($(this).parent().width()-$(this).width())/2.0});
+        $(this).css({
+          top: parseInt(($(this).parent().height()-$(this).height())/2.0),
+          left: parseInt(($(this).parent().width()-$(this).width())/2.0)
+        });
       });
       if ($(window).width() > $(window).height()){
         $(".portrait").css({display:"none"});
